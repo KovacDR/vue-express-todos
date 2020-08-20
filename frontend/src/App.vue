@@ -53,7 +53,7 @@ export default {
       this.copyTodos = [...this.todos];
     },
     searchTodos(title) {
-      this.copyTodos = this.todos.filter(todo => todo.title.includes(title));
+      this.copyTodos = this.todos.filter(todo => todo.task.includes(title));
     }
   },
 }
